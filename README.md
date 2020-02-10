@@ -1,0 +1,2 @@
+# Colour-Tempo-for-CSS
+Often while creating any Web Applications, we use colour templates which can be added to our CSS file, but do we really remember the exact RGB code or the hexadecimal value? ColourTempo brings you a site where you can get the exact value of any Hexadecimal colour by testing yourself with RGB slider provided. Also this will also help you by giving the RGB value side by side. The colour selected by you will be shown in the background, so its tit for a tat and you just need to slide and set!
