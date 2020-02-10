@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RGB to HEX Converter</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+<link rel="stylesheet" href="colorcss.css">
+<script src="colorjs.js"></script>
+</head>
+<body>
+    <div class="help" id="noob">
+        <h3> Follow the Rules to get the Colour code </h3>
+        <ol align=center>
+            <li align=center> By default the Hexadecimal Colour code is placed at White.</li>
+            <li align=center> Drag the slider of each colour element which incudes Red, Green and Blue.</li>
+            <li align=center> The background colour will change accordingly to the precision of the colour in the background.</li>
+            <li align=center> Copy the code generated below and add it to your css project file to add colours of your choice!</li>
+            <li align=center> Dont worry about the font colour of the Rules written they are programed to switch their colours if the background goes dark.</li>
+        </ol>
+    </div>
+    <div id="container" align="center">
+        <table>
+            <tr>
+                <th>Red</th>
+                <th>Green</th>
+                <th>Blue</th>
+            </tr>
+            <tr>
+                <td><input type="range" min="0" max="255" value="255" id="r" onchange="changeRange()"></td>
+                <td><input type="range" min="0" max="255" value="255" id="g" onchange="changeRange()"></td>
+                <td><input type="range" min="0" max="255" value="255" id="b" onchange="changeRange()"></td>
+            </tr>
+            <tr>
+                <td id="r-label">255</td>
+                <td id="g-label">255</td>
+                <td id="b-label">255</td>
+            </tr>
+            <tr>
+                <td>{Drag the Red Slider to set a precison}</td>
+                <td>{Drag the Green Slider to set a precison}</td>
+                <td>{Drag the Blue Slider to set a precison}</td>
+            </tr>
+        </table>
+        <h1 id="hex-label">#ffffff</h1>
+    </div>
+</body>
+</html>
